@@ -1,0 +1,418 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,600,700);
+@charset "utf-8";
+
+/**
+* Only this file is processed during the build system.
+* This is how to enforce a strict loading order for the rules.
+* Remember that the rules in the lib sub folder are loaded first.
+*/
+*{
+    box-sizing: border-box;
+}
+
+body {
+    padding-bottom: 40px;
+    background-color: #f5f5f5;
+    height: 100%;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.btn{
+    border-radius: 3px !important;
+}
+
+/*------------------------------------------------header-----------------------------------------------------------------*/
+/*--------navbar-header----*/
+
+.logo{
+    margin-left: 20%;
+}
+
+.navbar{
+    height: 70px;
+    background: #fff !important;
+}
+
+
+
+/*--------navbar-header----*/
+
+.header-spacer{
+    height: 50px;
+    width: 100%;
+    margin-bottom: 50px;
+}
+
+
+/*----------------------------------------------------------------------------------header-----------------------------------------------------------------*/
+
+
+
+
+
+
+
+/*-------------------------------------------------------------------------addcar---------------------------------------------------------------------------*/
+
+
+/*--------headline-------*/
+
+.whitecolor{
+    background-color: #fff;
+    text-align: center;
+}
+
+.newcarstep{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    border: 2px solid #cc2131;
+}
+
+.addyourcarsteps p{
+    padding-left: 15%
+}
+
+.addyourcarsteps .active{
+    background-color: #cc2131;
+}
+
+.headline-addcar{
+    margin: auto;
+    margin-top: 150px;
+    margin-bottom: 60px;
+}
+
+
+.headline-addcar h2{
+    font-weight: normal;
+    color: #cc2131;
+    font-size: 32px;
+    line-height: 22px;
+}
+
+.headline-addcar p{
+    font-weight: 400;
+    color: #6a7180;
+    font-size: 18px;
+    line-height: 26px;
+}
+
+/*--------headline-------*/
+
+
+
+
+
+.postnewcarbox{
+    margin-top: 80px;
+    margin-bottom: 30px;
+    
+}
+
+.postnewcarbox img{
+    width: 100%;
+}
+
+
+.editprofilebtn,
+.addyourcarbtn{
+    background-color: #191f26;
+    width: 80%;
+    height: 35px;
+    margin-top: 20%;
+}
+
+.profileinfo{
+    padding: 2% 0;
+    text-align: left;
+}
+
+.profileinfo p{
+    line-height: 20px;
+    margin-top:-7px;
+}
+
+
+
+
+/*--------forms--------*/
+.postnewcarbox .form-control,
+.postnewcarbox .editcar .form-control{
+    display: inline;
+}
+
+.editcar{
+    margin-top: 20px;
+}
+
+
+.postnewcarbox .carcubic{
+    margin-top: 30px;
+}
+
+.postnewcarbox .editcar .carcubic{
+    margin-top: 0;
+    
+} 
+
+.postnewcarbox .overview{
+    margin-top: 15px;
+}
+
+.postnewcarbox .editcar .overview{
+    margin-top: 0px;
+}
+
+.postnewcarbox .carcubic label{
+    color: #4d5464;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.postnewcarbox .overview p{
+    color: #4d5464;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.overview textarea{
+    width: 100%;
+    margin-left: 3%;
+}
+
+.postnewcarbox .carcubic input[type="text"] {
+    margin-left: -0.1%;
+    margin-bottom: 20px;
+    width: 312px;
+    height: 50px;
+    border: 1px solid #e2e2e2;
+}
+
+.postnewcarbox input[type="text"] {
+    margin-left: -0.1%;
+    width: 312px;
+    height: 50px;
+    border: 1px solid #e2e2e2;
+}
+
+
+
+.postnewcarbox .continue-btn{
+    margin-left: 17%;
+    margin-top: 60px;
+    width: 206px;
+    height: 66px;
+    background-color: #191f26;
+    box-shadow: 0 1px 0 white;
+    color: white;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 12px;
+}
+
+.postnewcarbox .continue-btn:hover{
+    color: white;
+    background-color: #cc2131;
+}
+
+/*--------forms--------*/
+
+
+/*--------book--------*/
+
+.book-btn{
+    margin-top: 60px;
+    margin-bottom: 30px;
+    margin-left: -32%;
+    width: 206px;
+    height: 66px;
+    background-color: #191f26;
+    box-shadow: 0 1px 0 white;
+    color: white;
+    font-size: 17px;
+    font-weight: 700;
+    line-height: 12px;
+}
+
+.book-btn:hover{
+    color: white;
+    background-color: #cc2131;
+}
+
+/*--------book--------*/
+
+
+
+/*--------book-process--------*/
+
+.message{
+	margin-top:120px;
+}
+
+/*--------book-process--------*/
+
+
+
+/*--------upload--------*/
+.btn-file input[type=submit] {
+    position: absolute;
+    top: 0;
+    right: 0;
+    min-width: 100%;
+    min-height: 100%;
+    font-size: 100px;
+    text-align: right;
+    filter: alpha(opacity=0);
+    opacity: 0;
+    outline: none;
+    cursor: inherit;
+    display: block;
+}
+/*--------upload--------*/
+
+
+
+/*---carphotosbox---*/
+
+
+.carphotosbox{
+    margin-top: 20px;
+    background-color: #fff;
+
+}
+
+.carphotosbox img
+{
+ display:block;
+ height:auto;	
+}
+
+.btn-file {
+    margin-top: 20px;
+    position: relative;
+    overflow: hidden;
+    background-color: #191f26 !important;
+}
+.btn-file input[type=file] {
+    position: absolute;
+    top: 0;
+    right: 0;
+    min-width: 100%;
+    min-height: 100%;
+    font-size: 100px;
+    text-align: right;
+    filter: alpha(opacity=0);
+    opacity: 0;
+    outline: none;
+    cursor: inherit;
+    display: block;
+}
+
+/*---carphotosbox---*/
+
+
+
+
+/*-------------------------------------------------------------------------addcar---------------------------------------------------------------------------*/
+
+
+/*-------------------------------------------------------------------edit-profile--------------------------------------------------------------------------*/
+.blockdates label{
+    margin-top: 28px;
+    color: #4d5464;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.blockdates .inputblock{
+    margin-top: 20px;
+}
+
+.marginfooter{
+    margin-bottom: 30px;
+}
+
+.update-btn{
+    margin-top: 60px;
+    margin-bottom: 30px;
+    margin-left: -32%;
+    width: 206px;
+    height: 66px;
+    background-color: #191f26;
+    box-shadow: 0 1px 0 white;
+    color: white;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 12px;
+}
+
+.update-btn:hover{
+    color: white;
+    background-color: #cc2131;
+}
+
+.editcar .carcubic label{
+    color: #4d5464;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+
+.editcar .carcubic input[type="text"] {
+    margin-left: -0.1%;
+    margin-bottom: 20px;
+    width: 312px;
+    height: 50px;
+    border: 1px solid #e2e2e2;
+}
+/*-------------------------------------------------------------------edit-profile---------------------------------------------------------------------------*/
+
+
+
+
+.postnewcarbox .selecttown label{
+    color: #4d5464;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.postnewcarbox .selecttown .form-control{
+    width: 312px;
+    height: 50px;
+    border: 1px solid #e2e2e2;
+}
+
+.postnewcarbox .selecttown{
+    margin-left: 18%;
+}
+.calexplain{
+    margin-top: 90px;
+    margin-bottom: 30px;
+    
+}
+
+/*-------------------------------------------------media--------------------------------------------------------*/
+@media(max-width:1092px){
+    .addyourcarsteps p{
+        display: block;
+    }
+    .addyourcarsteps{
+        padding-top: 20px;
+    }
+    .newcarstep{
+        margin-left: 54%;
+    }
+    .profileinfo{
+        margin-left: 15%;
+    }
+    .blockdates .inputblock input{
+        width: 100%;
+    margin-top: 20px;
+}
+}
+
+
+
+
+/*-------------------------------------------------media--------------------------------------------------------*/
