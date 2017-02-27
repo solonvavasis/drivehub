@@ -4,6 +4,8 @@ Thesis project for the WDD1014.1 Web Design and Development Diploma course at SA
 
 - Sql script for database and dummy data--> database.sql
 
+- Live demo at www.solonvavasis.com/drivehub
+
 
 
 
